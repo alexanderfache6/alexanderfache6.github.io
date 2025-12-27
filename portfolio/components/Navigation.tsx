@@ -11,7 +11,7 @@ export default function Navigation() {
             setScrolled(window.scrollY > 50);
 
             // Determine active section
-            const sections = ['about', 'projects', 'resume', 'research', 'contact'];
+            const sections = ['about', 'research', 'resume', 'youtube'];
             const scrollPosition = window.scrollY + 100;
 
             for (const section of sections) {
@@ -32,24 +32,23 @@ export default function Navigation() {
 
     const navItems = [
         { label: 'About', href: '#about' },
-        { label: 'Projects', href: '#projects' },
-        { label: 'Resume', href: '#resume' },
         { label: 'Research', href: '#research' },
-        { label: 'Contact', href: '#contact' },
+        { label: 'Resume', href: '#resume' },
+        // { label: 'Projects', href: '#projects' },
+        { label: 'YouTube', href: '#youtube' },
+        // { label: 'Contact', href: '#contact' },
     ];
 
     return (
         <nav
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-                    ? 'bg-[var(--bg-primary)]/90 backdrop-blur-lg border-b border-slate-800/50 py-4'
-                    : 'bg-transparent py-6'
+                ? 'bg-[var(--bg-primary)]/90 backdrop-blur-lg border-b border-slate-800/50 py-4'
+                : 'bg-transparent py-6'
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
                 {/* Logo */}
-                <a href="#about" className="text-2xl font-bold">
-                    <span className="gradient-text">JD</span>
-                </a>
+                <a href="#" className="text-2xl font-bold mb-4"><span className="gradient-text">Alexander Fache</span></a>
 
                 {/* Desktop Navigation */}
                 <ul className="hidden md:flex items-center gap-8">
@@ -58,8 +57,8 @@ export default function Navigation() {
                             <a
                                 href={item.href}
                                 className={`text-sm font-medium transition-all hover:text-indigo-400 ${activeSection === item.href.substring(1)
-                                        ? 'text-indigo-400'
-                                        : 'text-slate-300'
+                                    ? 'text-indigo-400'
+                                    : 'text-slate-300'
                                     }`}
                             >
                                 {item.label}

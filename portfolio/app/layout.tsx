@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { NAME, TITLE } from "@/constants/constants";
+
 export const metadata: Metadata = {
-  title: "John Doe - Software Engineer & Researcher",
-  description: "Personal portfolio of John Doe, a software engineer and researcher specializing in machine learning, distributed systems, and scalable computing. Explore my projects, research, and professional experience.",
-  keywords: ["Software Engineer", "Researcher", "Machine Learning", "Distributed Systems", "Portfolio", "AI", "Full Stack Developer"],
-  authors: [{ name: "John Doe" }],
+  title: `${NAME} - ${TITLE}`,
+  description: `Personal portfolio of ${NAME}, a ${TITLE} specializing in land cover change with satellite imagery.`,
+  keywords: ["Software Engineer", "Researcher", "Remote Sensing"],
+  authors: [{ name: `${NAME}` }],
   openGraph: {
-    title: "John Doe - Software Engineer & Researcher",
-    description: "Explore my portfolio featuring innovative projects in machine learning, distributed systems, and full-stack development.",
+    title: `${NAME} - ${TITLE}`,
+    description: "Portfolio",
     type: "website",
   },
 };

@@ -34,7 +34,7 @@ export default function Contact() {
     };
 
     return (
-        <section id="contact" className="gradient-bg grid-pattern">
+        <section id="contact" className="gradient-bg grid-pattern flex flex-col justify-center">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-5xl lg:text-6xl font-bold mb-4 text-center fade-in-up">
                     <span className="gradient-text">Get In Touch</span>
