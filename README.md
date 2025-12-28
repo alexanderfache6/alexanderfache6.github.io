@@ -1,2 +1,9 @@
-# alexanderfache6.github.io
-- V2
+```bash
+npm run dev
+```
+
+[http://localhost:3000](http://localhost:3000)
+
+```bash
+npm run build
+```

@@ -11,7 +11,7 @@ export default function Research() {
                 <br />
 
                 <div className="space-y-8">
-                    <div className="grid md:grid-cols-2 gap-6 mt-8 text-left">
+                    {/*<div className="grid md:grid-cols-2 gap-6 mt-8 text-left">
                         <div className="glass-card p-8">
                             <div className="bg-indigo-500/10 p-6 rounded-lg border border-indigo-500/20">
                                 <h4 className="text-xl font-semibold text-indigo-400 mb-2">Primary Focus</h4>
@@ -35,7 +35,7 @@ export default function Research() {
                             </div>
                         </div>
                     </div>
-                    <br />
+                    <br />*/}
 
                     <div className="glass-card p-8">
                         <h3 className="text-3xl font-bold mb-6 text-[var(--bu-color)]">Current Remote Sensing Research at Boston University</h3>
