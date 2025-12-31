@@ -1,20 +1,16 @@
-- run development server
-```bash
-npm run dev
-```
+## Build Steps
 
-- viewable at
-[http://localhost:3000](http://localhost:3000)
+- run development server `npm run dev`
 
-- build
-```bash
-npm run build
-```
+- viewable at [http://localhost:3000](http://localhost:3000)
 
-- view /out build locally
-```bash
-npx serve out
-```
+- build `npm run build`
 
-- setup github action
-    - 
+- view /out build locally `npx serve out`
+
+- github actions
+    - steps in deploy.yml
+    - using '`v2` branch
+    - in GitHub
+        - Settings > Pages > Source: GitHub Actions
+        - Actions > All workflows

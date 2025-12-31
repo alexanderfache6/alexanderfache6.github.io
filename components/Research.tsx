@@ -42,8 +42,8 @@ export default function Research() {
                         <div className="space-y-6 text-center">
                             <p className="text-slate-500 text-sm mb-3">2025 - present</p>
                             <ul className="text-slate-300 space-y-2 text-left">
-                                <li>• Shrub/woody expansion in western United States</li>
-                                <li>• Where is there overlap between woody expnsion and shifting wildlife grazing areas?</li>
+                                <li>• Shrub/woody expansion in the western United States</li>
+                                <li>• Where is there overlap between woody expansion and shifting wildlife grazing areas?</li>
                                 <li>• Attribution of damage to grasslands: shifting wildlife populations, dominant livestock, invasive species, direct climate contributors?</li>
                                 <li>• Suitability index balancing wildlife and livestock biomass requirements, rangeland space, agricultural needs?</li>
                             </ul>

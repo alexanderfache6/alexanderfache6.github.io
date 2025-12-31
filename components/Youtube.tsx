@@ -14,7 +14,7 @@ export default function Youtube() {
 
                 <div className="glass-card p-8">
                     <div className="mb-8 text-center">
-                        <p className="text-slate-300 mb-4">Follow my (sporadic postings) for drone tutorials, builds, and flights.</p>
+                        <p className="text-slate-300 mb-4">Follow my channel (albeit sporadic postings) for drone tutorials, builds, and flights.</p>
                         <a href="https://www.youtube.com/@AlexFache" target="_blank" className="btn-secondary inline-block">YouTube @AlexFache</a>
                         <p className="text-slate-300 mb-4">Some fun videos below.</p>
                     </div>

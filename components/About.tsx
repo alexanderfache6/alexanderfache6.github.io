@@ -32,7 +32,7 @@ export default function About() {
                             <p className="mb-6 text-[var(--gt-color)]">
                                 Seeking a Summer 2026 remote sensing research or internship position in land cover change and satellite derived products to support my interests.
                                 Please get in touch via my <a href="https://www.linkedin.com/in/alexanderfache/" target="_blank" className="font-bold underline">LinkedIn</a>.
-                                Research <a href="#research" className="font-bold underline">below</a>.
+                                Current research <a href="#research" className="font-bold underline">below</a>.
                             </p>
                         </div>
                     </div>
