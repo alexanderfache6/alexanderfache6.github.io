@@ -84,8 +84,7 @@ body {
 .glass-card:hover {
   background: rgba(26, 26, 40, 0.8);
   border-color: var(--border-glow);
-  /* transform: translateY(-4px); */
-  box-shadow: 0 10px 10px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 00px 10px rgba(99, 102, 241, 0.15);
 }
 
 /* Animated gradient background */
@@ -109,8 +108,7 @@ body {
 
 /* Glow effect */
 .glow {
-  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3),
-    0 0 40px rgba(139, 92, 246, 0.2);
+  box-shadow: 0 0 10px var(--gt-color), 0 0 30px var(--bu-color);
 }
 
 /* Button styles */
@@ -181,7 +179,7 @@ body {
 /* Section styles */
 section {
   min-height: 100vh;
-  padding: 80px 20px;
+  padding: 60px 20px;
   position: relative;
 }
 
@@ -203,12 +201,12 @@ section {
 }
 
 /* Grid pattern background */
-.grid-pattern {
+/* .grid-pattern {
   background-image:
     linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
   background-size: 50px 50px;
-}
+} */
 
 /* Floating animation for decorative elements */
 @keyframes float {

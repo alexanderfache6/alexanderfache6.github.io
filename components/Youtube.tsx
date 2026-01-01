@@ -1,15 +1,10 @@
 'use client';
 
-import React from 'react';
-
 export default function Youtube() {
     return (
-
         <section id="youtube" className="gradient-bg flex flex-col justify-center items-center text-center relative overflow-hidden">
             <div className="w-3/4 mx-auto">
-                <h2 className="text-5xl lg:text-6xl font-bold mb-12 text-center fade-in-up">
-                    <span className="gradient-text">YouTube</span>
-                </h2>
+                <h2 className="text-5xl lg:text-6xl font-bold mb-12 text-center fade-in-up"><span className="gradient-text">YouTube</span></h2>
                 <br />
 
                 <div className="glass-card p-8">

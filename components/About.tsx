@@ -1,20 +1,17 @@
 'use client';
 
-import React from 'react';
-
 import { PROFILE } from '@/constants/constants';
 
 export default function About() {
     return (
         <section id="about" className="flex flex-col justify-center items-center">
             <div className="max-w-6xl mx-auto">
+
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                     <div className="relative w-64 h-64 lg:w-80 lg:h-80 floating">
                         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full opacity-20 blur-3xl"></div>
                         <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-indigo-500/30 glow">
                             <div className="w-full h-full bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center">
-                                {/*<span className="text-8xl font-bold text-white">AF</span>*/}
-                                {/*<img src="IMG_2108.JPEG" alt="alternatetext">*/}
                                 <img src={PROFILE} className="w-full h-full object-cover rounded-full"/>
                             </div>
                         </div>
@@ -37,6 +34,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     );
