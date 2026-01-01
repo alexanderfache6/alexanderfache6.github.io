@@ -51,6 +51,7 @@ export default function Research() {
                                 <li>Attribution of damage to grasslands: shifting wildlife populations, dominant livestock, invasive species, direct climate contributors?</li>
                                 <li>Suitability index balancing wildlife and livestock biomass requirements, rangeland space, agricultural needs?</li>
                             </ul>
+                             {/* TODO */}
                             <ul className="flex flex-wrap gap-3 justify-center my-8">
                                 {bu_tags.map((tag, index) => (
                                     <li key={index} className="px-10 py-2 bg-slate-800 text-slate-200 rounded-full border border-slate-600 text-sm font-medium cursor-default">{tag}</li>
@@ -66,6 +67,7 @@ export default function Research() {
                             <div className="pb-6 border-b border-slate-700">
                                 <h4 className="text-lg font-semibold text-white mb-2">Cooperative Exploration of Unknown Environments Using a Robotic Snake-Turtlebot Leader-Follower Pair</h4>
                                 <p className="text-slate-500 text-sm mb-3">2019 - 2020</p>
+                                 {/* TODO */}
                                 <ul className="flex flex-wrap gap-3 justify-center my-8">
                                     {gt_cooperative_tags.map((tag, index) => (
                                         <li key={index} className="px-10 py-2 bg-slate-800 text-slate-200 rounded-full border border-slate-600 text-sm font-medium cursor-default">{tag}</li>
@@ -89,7 +91,8 @@ export default function Research() {
                                 <h4 className="text-lg font-semibold text-white mb-2">Marsupially-Aided Robotic Snake Exploration and Navigation of Cluttered Environments</h4>
                                 <p className="text-slate-500 text-sm mb-3">2018 - 2019</p>
                                 <p className="text-sm mb-2 text-left">Publication: A. Faché, et al., "Marsupially-Aided Robotic Snake Exploration and Navigation of Cluttered Environments," in Proc. Nat. Conf. Undergraduate Res., Kennesaw, GA, USA, Oct. 2019, pp. 526-536.</p>
-                                <ul className="flex flex-wrap gap-3 justify-center my-8">
+                                 {/* TODO */}
+                                 <ul className="flex flex-wrap gap-3 justify-center my-8">
                                     {gt_marsupially_tags.map((tag, index) => (
                                         <li key={index} className="px-10 py-2 bg-slate-800 text-slate-200 rounded-full border border-slate-600 text-sm font-medium cursor-default">{tag}</li>
                                     ))}

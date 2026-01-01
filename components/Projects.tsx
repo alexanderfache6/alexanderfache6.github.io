@@ -31,6 +31,7 @@ const projects: Project[] = [
     }
 ];
 
+ {/* TODO */}
 export default function Projects() {
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 

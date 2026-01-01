@@ -48,7 +48,7 @@ export default function Navigation() {
         >
             <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
                 {/* Logo */}
-                <a href="#" className="text-2xl font-bold mb-4"><span className="gradient-text">Alexander Fache</span></a>
+                <a href="#" className="text-2xl font-bold mb-4"><span className="gradient-text">Alexander Fache</span></a> {/* TODO */}
 
                 {/* Desktop Navigation */}
                 <ul className="hidden md:flex items-center gap-8">
