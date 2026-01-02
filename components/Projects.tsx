@@ -12,6 +12,7 @@ interface Project {
     demo?: string;
 }
 
+// TODO
 const projects: Project[] = [
     {
         id: 1,
@@ -31,7 +32,6 @@ const projects: Project[] = [
     }
 ];
 
- {/* TODO */}
 export default function Projects() {
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
@@ -43,7 +43,6 @@ export default function Projects() {
                 </h2>
                 <br />
 
-                {/* Projects Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
                     {projects.map((project, index) => (
                         <div
@@ -66,7 +65,7 @@ export default function Projects() {
                 </div>
             </div>
 
-            {/* Modal */}
+            {/* TODO modal formatting */}
             {selectedProject && (
                 <div
                     className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-fade-in"
@@ -76,7 +75,6 @@ export default function Projects() {
                         className="glass-card max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 relative"
                         onClick={(e) => e.stopPropagation()}
                     >
-                        {/* Close Button */}
                         <button
                             onClick={() => setSelectedProject(null)}
                             className="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors text-3xl"
@@ -92,26 +90,16 @@ export default function Projects() {
                             {selectedProject.title.substring(0, 2).toUpperCase()}
                         </div>
 
-                        {/* Project Details */}
-                        <h3 className="text-3xl font-bold mb-4 gradient-text">
-                            {selectedProject.title}
-                        </h3>
+                        <h3 className="text-3xl font-bold mb-4 gradient-text">{selectedProject.title}</h3>
 
-                        <p className="text-slate-300 mb-4 text-lg">
-                            {selectedProject.description}
-                        </p>
+                        <p className="text-slate-300 mb-4 text-lg">{selectedProject.description}</p>
                         <br />
 
                         {/* Tags */}
                         <div className="mb-6">
                             <div className="flex flex-wrap gap-2">
                                 {selectedProject.tags.map((tag) => (
-                                    <span
-                                        key={tag}
-                                        className="px-3 py-1 text-sm bg-indigo-500/20 text-indigo-300 rounded"
-                                    >
-                                        {tag}
-                                    </span>
+                                    <span key={tag} className="px-3 py-1 text-sm bg-indigo-500/20 text-indigo-300 rounded">{tag}</span>
                                 ))}
                             </div>
                         </div>
@@ -143,6 +131,7 @@ export default function Projects() {
                     </div>
                 </div>
             )}
+
         </section>
     );
 }

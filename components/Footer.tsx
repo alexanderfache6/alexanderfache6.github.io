@@ -36,10 +36,8 @@ export default function Footer() {
     return (
         <footer className="bg-[var(--bg-tertiary)] border-t border-slate-800">
             <div className="max-w-7xl mx-auto px-4 py-12">
-                {/* Main Footer Content */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
 
-                    {/* Connect Column */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-4">Connect</h4>
                         <div className="flex flex-wrap gap-4">
@@ -60,30 +58,19 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* horizontal divider */}
                 <div className="border-t border-slate-800 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-                        <p className="text-slate-500 text-sm">
-                            © {currentYear} {NAME}. All rights reserved.
-                        </p>
+                        <p className="text-slate-500 text-sm">© {currentYear} {NAME}. All rights reserved.</p>
 
-                        {/* Back to Top */}
-                        <button
-                            onClick={scrollToTop}
-                            className="text-slate-400 hover:text-indigo-400 transition-colors text-sm flex items-center gap-2 group"
-                        >
+                        <button onClick={scrollToTop} className="text-slate-400 hover:text-indigo-400 transition-colors text-sm flex items-center gap-2 group">
                             Back to top
-                            <svg
-                                className="w-4 h-4 transform group-hover:-translate-y-1 transition-transform"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
+                            <svg className="w-4 h-4 transform group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
                             </svg>
                         </button>
                     </div>
                 </div>
+            
             </div>
         </footer>
     );
